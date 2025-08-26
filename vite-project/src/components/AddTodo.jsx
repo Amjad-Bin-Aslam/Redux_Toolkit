@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 import {useDispatch} from 'react-redux';
-import {addTodo, AddTodo} from '../features/todo/todoSlice'
+import {addTodo} from '../features/todo/todoSlice'
 
 function AddTodo() {
 
@@ -24,7 +24,7 @@ function AddTodo() {
       />
       <button
         type="submit"
-        className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+        className="text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none rounded text-lg"
       >
         Add Todo
       </button>
